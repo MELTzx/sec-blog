@@ -1,0 +1,25 @@
+{
+  "name": "secblog",
+  "version": "1.0.0",
+  "description": "security blog",
+  "main": "index.md",
+  "scripts": {
+    "dev": "jekyll serve",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "JEKYLL_ENV=production jekyll build",
+    "deploy": "gh-pages -d _site"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MELTzx/sec-blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MELTzx/sec-blog/issues"
+  },
+  "homepage": "https://github.com/MELTzx/sec-blog#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
